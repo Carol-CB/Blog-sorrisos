@@ -1,0 +1,91 @@
+body{
+    background-color: palevioletred;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-estilo a{
+    color: peachpuff;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.header-estilo {
+   height: 100px;
+}
+
+.header-estilo a:hover{
+    color: plum;
+}
+
+
+.card-estilo{
+    background-color:rgba(253, 50, 118, 0.708);
+    color: peachpuff;
+    border-style: none;
+    margin-bottom: 60px;
+}
+
+.card-estilo:hover{
+   cursor: pointer;
+   box-shadow: 0 0 4px peachpuff;
+
+}
+
+.card-estilo h5{
+    text-align: center;
+    font-weight: 500;
+    font-family: "Gochi Hand", serif;
+    font-size: xx-large;
+    color: peachpuff;
+}
+
+.card-estilo .divbotao{
+    text-align: center;
+}
+
+.card-estilo .list-group-item {
+    background-color:peachpuff;
+    color:palevioletred;
+    text-align: center;
+    border: 3px;
+}
+
+.footer-estilo{
+    background-color: peachpuff;
+    color:palevioletred;
+}
+
+.card-principal{
+    background-color: peachpuff;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.card-principal h1{
+    color: rgb(255, 0, 85);
+    font-family: "Gochi Hand", serif;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.card-principal h2{
+    color: rgb(230, 91, 137);
+    font-family: "Gochi Hand", serif;
+    font-weight: 500;
+}
+.card-principal p{
+    color: rgb(30, 29, 29);
+    font-weight: 500;
+    margin: 40px;
+}
+.card-principal a{
+    color: rgb(255, 0, 85);
+    font-weight: 500;
+    margin: 60px;
+}
+@media only screen and (max-width: 900px) {
+    .card-principal img{
+      width: 100%; 
+      max-width: 100%;
+    }
+}
